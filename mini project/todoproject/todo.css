@@ -1,0 +1,28 @@
+body{
+    background-image: url(download\ \(1\).jpeg);
+    background-size: cover;
+}
+.container{
+    position: absolute;
+    top:30%;
+    left :40%;
+
+}
+.container input[type='text']{
+    height: 30px;
+    width: 170px;
+    color: blue;
+    border-radius: 5px;
+    font-size: large;
+    
+    
+}
+button{
+    height: 37px;
+    color: blue;
+    border-radius: 5px;
+    background-color: brown;
+    color: black;
+    font-size: large;
+
+}

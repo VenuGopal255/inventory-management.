@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <label for="">
+            val 1
+            <input type="text" id="t1">
+        </label><br><br>
+        <label for="">
+            val 2
+            <input type="text" id="t2">
+        </label><br><br>
+        <button onclick="addition()"> add </button>
+        <p id="pt"></p>
+    <script>
+        function  addition(){
+            let v1,v2,pt;
+            v1=parseInt(document.getElementById('t1').value);
+            v2=parseInt(document.getElementById('t2').value);
+            pt=(document.getElementById('pt'));
+            let res=v1+v2
+            pt.innerHTML=  '<h1>addition is' + res +'</h1>';
+        }
+    </script>
+    </body>
+</html>
